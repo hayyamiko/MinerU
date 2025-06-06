@@ -8,7 +8,7 @@ fast-langdetect>=0.2.3,<0.3.0
 scikit-learn>=1.0.2
 pdfminer.six==20231228
 unimernet==0.2.3
-torch>=2.2.2,<=2.3.1
+torch>=2.7.1
 torchvision>=0.17.2,<=0.18.1
 matplotlib
 ultralytics>=8.3.48
@@ -22,3 +22,4 @@ rapid-table>=1.0.3,<2.0.0
 doclayout-yolo==0.0.2b1
 openai
 detectron2
+h11>=0.16.0 # not directly required, pinned by Snyk to avoid a vulnerability
