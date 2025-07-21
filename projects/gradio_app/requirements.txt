@@ -1,3 +1,4 @@
 magic-pdf[full]>=0.8.0
 gradio
 gradio-pdf
+aiohttp>=3.12.14 # not directly required, pinned by Snyk to avoid a vulnerability
