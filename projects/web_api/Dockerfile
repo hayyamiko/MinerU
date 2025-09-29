@@ -1,5 +1,5 @@
 # Use the official Ubuntu base image
-FROM ubuntu:latest
+FROM ubuntu:24.10
 
 # ENV http_proxy http://127.0.0.1:7890
 # ENV https_proxy http://127.0.0.1:7890
