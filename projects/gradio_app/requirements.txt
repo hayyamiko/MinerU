@@ -1,3 +1,4 @@
 magic-pdf[full]>=0.8.0
 gradio
 gradio-pdf
+python-multipart>=0.0.22 # not directly required, pinned by Snyk to avoid a vulnerability
