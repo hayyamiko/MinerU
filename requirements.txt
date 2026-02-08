@@ -11,3 +11,4 @@ torch>=2.2.2
 transformers
 pdfminer.six==20231228
 # The requirements.txt must ensure that only necessary external dependencies are introduced. If there are new dependencies to add, please contact the project administrator.
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
